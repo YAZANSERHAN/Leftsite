@@ -1436,7 +1436,13 @@
                 stickyCTA.classList.remove('visible');
             }
         }
-        
+        function redirectToChangeNOW(e) {
+    e.preventDefault();
+    const amount = document.getElementById("amount").value;
+    const currency = document.getElementById("currency").value;
+    const url = `https://changenow.io/exchange?from=${currency}&to=left&amount=${amount}`;
+    window.open(url, '_blank');
+}
         // Initialize Everything
         document.addEventListener('DOMContentLoaded', function() {
             updateCountdown();
