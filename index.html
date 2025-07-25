@@ -1384,23 +1384,29 @@
     <script>
         // Countdown Timer
         function updateCountdown() {
-            const now = new Date().getTime();
-            const endTime = now + (24 * 60 * 60 * 1000); // 24 hours from now
-            
-            setInterval(() => {
-                const currentTime = new Date().getTime();
-                const timeLeft = endTime - currentTime;
-                
-                const hours = Math.floor(timeLeft / (1000 * 60 * 60));
-                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-                
-                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-            }, 1000);
-        }
-        
+    let endTime = localStorage.getItem('leftCountdownEnd');
+    if (!endTime) {
+        endTime = new Date().getTime() + 24 * 60 * 60 * 1000;
+        localStorage.setItem('leftCountdownEnd', endTime);
+    } else {
+        endTime = parseInt(endTime);
+    }
+
+    setInterval(() => {
+        const currentTime = new Date().getTime();
+        const timeLeft = Math.max(endTime - currentTime, 0);
+
+        const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+        document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+        document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+    }, 1000);
+}
+
+
         // FAQ Toggle
         function toggleFAQ(element) {
             const answer = element.nextElementSibling;
