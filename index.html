@@ -1274,52 +1274,48 @@
                         </div>
                     </div>
 
-                    <!-- Right Side - Exchange Widget -->
-                    <div class="exchange-widget">
-                        <div class="widget-header">
-                            <h2 class="widget-title">Buy $LEFT Now</h2>
-                            <p class="widget-subtitle">Instant VIP Access</p>
-                        </div>
+                    <!-- New Exchange Widget -->
+<div class="exchange-widget">
+    <div class="widget-header">
+        <h2 class="widget-title">Buy $LEFT Now</h2>
+        <p class="widget-subtitle">Instant VIP Access</p>
+    </div>
 
-                        <!-- Quick Buy Options -->
-                        <div class="quick-buy-grid">
-                            <a href="#" class="quick-buy-btn" onclick="setBuyAmount(1000, 115)">
-                                🥉 BRONZE TIER<br>
-                                <span style="color: var(--neon-green);">1,000 $LEFT (~$115)</span>
-                            </a>
-                            <a href="#" class="quick-buy-btn" onclick="setBuyAmount(10000, 1150)">
-                                🥈 SILVER TIER<br>
-                                <span style="color: var(--neon-green);">10K $LEFT (~$1,150)</span>
-                            </a>
-                            <a href="#" class="quick-buy-btn" onclick="setBuyAmount(50000, 5750)">
-                                🥇 GOLD TIER<br>
-                                <span style="color: var(--neon-green);">50K $LEFT (~$5,750)</span>
-                            </a>
-                            <a href="#" class="quick-buy-btn" onclick="setBuyAmount(100000, 11500)">
-                                💎 DIAMOND TIER<br>
-                                <span style="color: var(--neon-green);">100K+ $LEFT (~$11,500)</span>
-                            </a>
-                        </div>
+    <form id="buyForm" onsubmit="redirectToChangeNOW(event)">
+        <label for="amount" style="color: var(--text-secondary); font-size: 12px;">Amount</label>
+        <input type="number" id="amount" name="amount" min="10" value="100"
+               style="width: 100%; padding: 10px; margin-bottom: 15px; background: var(--card-bg-alt); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-family: 'Inter'; font-size: 14px;" />
 
-                        <!-- Buy Button -->
-                        <a href="https://changenow.io/exchange?from=usdt&to=left&amount=100" target="_blank" class="exchange-button">
-                            🚀 BUY $LEFT WITH ANY CRYPTO
-                        </a>
+        <label for="currency" style="color: var(--text-secondary); font-size: 12px;">Currency</label>
+        <select id="currency" name="currency"
+                style="width: 100%; padding: 10px; margin-bottom: 25px; background: var(--card-bg-alt); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-family: 'Inter'; font-size: 14px;">
+            <option value="usdt">USDT</option>
+            <option value="eth">ETH</option>
+            <option value="btc">BTC</option>
+            <option value="sol">SOL</option>
+            <option value="bnb">BNB</option>
+        </select>
 
-                        <!-- Alternative Options -->
-                        <div style="margin-top: 20px; text-align: center;">
-                            <div style="color: var(--text-muted); font-size: 12px; margin-bottom: 15px; font-family: 'Inter', sans-serif;">
-                                Or buy on DEX:
-                            </div>
-                            <div style="display: flex; gap: 10px; justify-content: center;">
-                                <a href="https://jup.ag/swap/USDC-LEFT" target="_blank" class="quick-buy-btn" style="flex: 1; padding: 10px;">
-                                    Jupiter (Solana)
-                                </a>
-                                <a href="https://app.uniswap.org/#/swap?outputCurrency=LEFT" target="_blank" class="quick-buy-btn" style="flex: 1; padding: 10px;">
-                                    Uniswap (ETH)
-                                </a>
-                            </div>
-                        </div>
+        <button type="submit" class="exchange-button">🚀 BUY $LEFT WITH CHANGE NOW</button>
+    </form>
+
+    <div style="margin-top: 20px; text-align: center; font-size: 12px; color: var(--text-muted);">
+        Or buy on DEX:
+        <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
+            <a href="https://jup.ag/swap/USDC-LEFT" target="_blank" class="quick-buy-btn">Jupiter (Sol)</a>
+            <a href="https://app.uniswap.org/#/swap?outputCurrency=LEFT" target="_blank" class="quick-buy-btn">Uniswap (ETH)</a>
+        </div>
+    </div>
+
+    <p style="font-size: 10px; color: var(--text-muted); margin-top: 20px;">
+        Contract: <code>0xYourTokenAddressHere</code>
+    </p>
+
+    <p style="font-size: 10px; color: var(--text-muted); margin-top: 10px;">
+        ⚠️ Crypto involves risk. Bonuses are affiliate-funded. Not financial advice.
+    </p>
+</div>
+
 
                         <!-- Footer Info -->
                         <div class="inter-font" style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border-color);">
