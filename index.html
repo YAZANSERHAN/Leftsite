@@ -2566,7 +2566,7 @@
                 const currency = document.getElementById('currency')?.value;
                 
                 if (!amount || amount < (this.config.site.pricing?.minimumPurchase || 10)) {
-                    this.showNotification('❌ Minimum purchase amount is  + (this.config.site.pricing?.minimumPurchase || 10), 'error');
+ this.showNotification(`❌ Minimum purchase amount is ${this.config.site.pricing?.minimumPurchase || 10}`, 'error');
                     return;
                 }
                 
