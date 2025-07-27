@@ -1,0 +1,144 @@
+{
+  "missions": {
+    "first-purchase": {
+      "id": "first-purchase",
+      "title": "FIRST PURCHASE",
+      "icon": "🚀",
+      "description": "Make your first $LEFT purchase of any amount to unlock the ecosystem and start earning VIP benefits.",
+      "reward": "100 $LEFT + Bronze Tier",
+      "rewardValue": 100,
+      "progress": 0,
+      "maxProgress": 1,
+      "progressUnit": "Purchase",
+      "status": "active",
+      "verification": ["wallet", "time"],
+      "actionText": "IN PROGRESS...",
+      "actionDisabled": true,
+      "dependencies": []
+    },
+    "hold-1k": {
+      "id": "hold-1k",
+      "title": "DIAMOND HANDS",
+      "icon": "💎",
+      "description": "Hold 1,000+ $LEFT for 7 consecutive days without selling. Prove your commitment to the ecosystem.",
+      "reward": "250 $LEFT + VIP Badge",
+      "rewardValue": 250,
+      "progress": 0,
+      "maxProgress": 7,
+      "progressUnit": "Days",
+      "status": "locked",
+      "verification": ["wallet", "time", "social"],
+      "actionText": "COMPLETE FIRST PURCHASE",
+      "actionDisabled": true,
+      "dependencies": ["first-purchase"]
+    },
+    "wager": {
+      "id": "wager",
+      "title": "HIGH ROLLER",
+      "icon": "🎰",
+      "description": "Wager $500+ on partner casinos using your VIP bonuses. The more you play, the more you earn back.",
+      "reward": "10% Cashback in $LEFT",
+      "rewardValue": "10%",
+      "progress": 0,
+      "maxProgress": 500,
+      "progressUnit": "Wagered",
+      "progressPrefix": "$",
+      "status": "locked",
+      "verification": ["wallet", "math", "time"],
+      "actionText": "UNLOCK VIP ACCESS FIRST",
+      "actionDisabled": true,
+      "dependencies": ["first-purchase"]
+    },
+    "referral": {
+      "id": "referral",
+      "title": "SPREAD THE WORD",
+      "icon": "👥",
+      "description": "Refer 3 friends who purchase $LEFT. Both you and your friends get bonus rewards for joining forces.",
+      "reward": "500 $LEFT + Tier Upgrade",
+      "rewardValue": 500,
+      "progress": 1,
+      "maxProgress": 3,
+      "progressUnit": "Referrals",
+      "status": "active",
+      "verification": ["social", "time"],
+      "actionText": "COPY REFERRAL LINK",
+      "actionDisabled": false,
+      "dependencies": []
+    },
+    "social": {
+      "id": "social",
+      "title": "SOCIAL BUTTERFLY",
+      "icon": "📱",
+      "description": "Follow our official social media accounts and join the Discord community to stay updated on new features.",
+      "reward": "50 $LEFT + Community Role",
+      "rewardValue": 50,
+      "progress": 3,
+      "maxProgress": 3,
+      "progressUnit": "Tasks",
+      "status": "completed",
+      "verification": ["social"],
+      "actionText": "REWARD CLAIMED",
+      "actionDisabled": true,
+      "dependencies": []
+    },
+    "loyalty": {
+      "id": "loyalty",
+      "title": "LOYALTY CHAMPION",
+      "icon": "🏆",
+      "description": "Complete 30 consecutive days of holding $LEFT without selling. Ultimate dedication gets ultimate rewards.",
+      "reward": "1,000 $LEFT + Exclusive NFT",
+      "rewardValue": 1000,
+      "progress": 13,
+      "maxProgress": 30,
+      "progressUnit": "Days",
+      "status": "active",
+      "verification": ["wallet", "time", "social", "math"],
+      "actionText": "CONTINUE HOLDING",
+      "actionDisabled": false,
+      "dependencies": ["hold-1k"]
+    }
+  },
+  "missionStats": {
+    "totalMissions": 6,
+    "activeMissions": 3,
+    "completedMissions": 1,
+    "totalRewardsPaid": 47392,
+    "averageCompletionTime": "7 days",
+    "successRate": "84%"
+  },
+  "missionCategories": [
+    {
+      "name": "Purchase & Hold",
+      "missions": ["first-purchase", "hold-1k", "loyalty"],
+      "description": "Build your position and show commitment"
+    },
+    {
+      "name": "Community",
+      "missions": ["social", "referral"],
+      "description": "Engage with the community and grow the ecosystem"
+    },
+    {
+      "name": "Gaming",
+      "missions": ["wager"],
+      "description": "Use your VIP benefits on partner platforms"
+    }
+  ],
+  "specialEvents": [
+    {
+      "id": "double-rewards-week",
+      "title": "Double Rewards Week",
+      "description": "All mission rewards are doubled this week!",
+      "multiplier": 2.0,
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-07",
+      "active": false
+    },
+    {
+      "id": "new-user-bonus",
+      "title": "New User Bonus",
+      "description": "First 100 users get extra tier benefits",
+      "remaining": 73,
+      "active": true
+    }
+  ]
+}

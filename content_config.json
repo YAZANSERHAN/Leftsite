@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "howItWorks": {
+      "title": "HOW $LEFT WORKS",
+      "subtitle": "4 SIMPLE STEPS TO VIP CASINO REWARDS",
+      "steps": [
+        {
+          "number": "1️⃣",
+          "title": "BUY $LEFT",
+          "description": "Purchase $LEFT tokens with any crypto. No KYC, instant delivery. Start with as little as $50 to unlock Bronze tier and begin your mission journey."
+        },
+        {
+          "number": "2️⃣",
+          "title": "COMPLETE MISSIONS",
+          "description": "Engage with our daily missions system. Hold tokens, refer friends, and participate in the community to earn bonus $LEFT rewards and tier upgrades."
+        },
+        {
+          "number": "3️⃣",
+          "title": "CLAIM VIP BONUSES",
+          "description": "Connect your verified wallet to claim exclusive deposit bonuses on partner casinos. Bronze = 50%, Silver = 75%, Gold = 100%, Diamond = 150%."
+        },
+        {
+          "number": "4️⃣",
+          "title": "EARN CONTINUOUS REWARDS",
+          "description": "Every bet you place earns you $LEFT rewards back. Complete missions for bonus multipliers. The more you engage, the more you earn!"
+        }
+      ]
+    },
+    "successStories": {
+      "title": "REAL HOLDER RESULTS + MISSION REWARDS",
+      "stories": [
+        {
+          "emoji": "💎",
+          "author": "@CryptoWhale47",
+          "tier": "Diamond Holder",
+          "story": "Bought 150K $LEFT for $3,000. Completed all missions for bonus 2,000 $LEFT. Got <span class=\"story-highlight\">150% deposit bonus</span> + VIP host. <span class=\"story-highlight\">Mission rewards paid for my next casino session!</span>"
+        },
+        {
+          "emoji": "🏆",
+          "author": "@DailyGrinder",
+          "tier": "Mission Champion",
+          "story": "Completed 30-day loyalty mission and got <span class=\"story-highlight\">1,000 $LEFT bonus + exclusive NFT.</span> Plus my referral missions earned me another 1,500 $LEFT. Missions make HODLing profitable!"
+        },
+        {
+          "emoji": "🎯",
+          "author": "@MissionMaster",
+          "tier": "Active Player",
+          "story": "Love the gamified approach! Completed social missions for 200 $LEFT, wagering missions for 10% cashback. <span class=\"story-highlight\">Earned 800 extra $LEFT just from missions this month.</span>"
+        }
+      ]
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "questions": [
+        {
+          "question": "❓ HOW DO MISSIONS PREVENT BOTS AND ENSURE REAL ENGAGEMENT?",
+          "answer": "We use multiple anti-bot measures: wallet verification, math captchas, time-delayed rewards, social media verification, and behavioral analysis. Missions require real human interaction like holding tokens for days, social engagement, and casino wagering that bots can't fake."
+        },
+        {
+          "question": "❓ IS THIS ACTUALLY REAL OR TOO GOOD TO BE TRUE?",
+          "answer": "100% real. We have official affiliate partnerships with major casino platforms. When you use our referral links and wager, we earn commission from them. We use those profits to fund VIP bonuses and mission rewards. It's a legitimate revenue-sharing business model."
+        },
+        {
+          "question": "❓ WHAT STOPS PEOPLE FROM GAMING THE MISSION SYSTEM?",
+          "answer": "Each mission has verification requirements: wallet signatures for holdings, time locks for loyalty missions, social verification for community tasks, and minimum wagering for casino missions. We also track wallet behavior and can blacklist suspicious accounts."
+        },
+        {
+          "question": "❓ HOW OFTEN DO NEW MISSIONS APPEAR?",
+          "answer": "We add new missions weekly and have seasonal events with special rewards. Daily missions refresh every 24 hours, weekly missions every Monday, and monthly challenges at the start of each month. Special event missions during market events or partnerships."
+        },
+        {
+          "question": "❓ CAN I LOSE MY VIP STATUS OR MISSION PROGRESS?",
+          "answer": "VIP status is based on current holdings - if you sell below tier requirements, you lose that tier's benefits. However, completed mission rewards are yours forever. Mission progress doesn't reset unless you sell all your tokens or are caught botting."
+        },
+        {
+          "question": "❓ WHAT HAPPENS TO MISSION REWARDS IF LEFT PRICE CHANGES?",
+          "answer": "Mission rewards are locked in $LEFT tokens, so you benefit from price appreciation. If $LEFT goes up 2x, your mission rewards are worth 2x more. This creates strong incentives for long-term holding and community growth."
+        }
+      ]
+    }
+  },
+  "notifications": {
+    "purchaseSuccess": "🎉 Purchase completed! Mission progress updated automatically.",
+    "missionCompleted": "🏆 Mission completed! Rewards will be distributed within 24 hours.",
+    "verificationRequired": "🛡️ Please complete verification to claim your rewards.",
+    "walletConnected": "✅ Wallet connected successfully! Mission progress synced.",
+    "referralCopied": "📋 Referral link copied to clipboard!",
+    "errorGeneric": "❌ Something went wrong. Please refresh and try again.",
+    "networkError": "🌐 Network error. Please check your connection."
+  },
+  "verification": {
+    "modal": {
+      "title": "🛡️ MISSION VERIFICATION",
+      "subtitle": "Complete verification to prove you're human and unlock mission rewards.",
+      "sections": {
+        "math": {
+          "title": "🧮 MATH VERIFICATION",
+          "placeholder": "Enter answer"
+        },
+        "wallet": {
+          "title": "📱 CONNECT WALLET TO VERIFY",
+          "description": "We need to verify your $LEFT holdings to unlock mission rewards.",
+          "buttonText": "🔗 CONNECT WALLET",
+          "buttonRetry": "🔗 RETRY CONNECTION"
+        },
+        "social": {
+          "title": "📱 SOCIAL VERIFICATION",
+          "description": "Follow and interact with our social media to complete verification:",
+          "tasks": [
+            {"id": "twitterFollow", "label": "Follow @LEFTToken on Twitter", "url": "https://twitter.com/lefttoken"},
+            {"id": "discordJoin", "label": "Join Discord Community", "url": "https://discord.gg/lefttoken"},
+            {"id": "telegramJoin", "label": "Join Telegram Channel", "url": "https://t.me/lefttoken"}
+          ]
+        },
+        "time": {
+          "title": "⏰ TIME VERIFICATION",
+          "description": "Please wait {seconds} seconds before claiming rewards."
+        }
+      },
+      "buttons": {
+        "verify": "🔓 VERIFICATION COMPLETE - CLAIM REWARD",
+        "verifying": "🔒 VERIFICATION ({completed}/4 COMPLETE)",
+        "close": "×"
+      }
+    }
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "$LEFT TOKEN",
+        "content": "The only token that unlocks exclusive VIP casino bonuses AND gamified mission rewards. Hold $LEFT, complete missions, get bigger bonuses, earn more rewards."
+      },
+      {
+        "title": "QUICK LINKS",
+        "links": [
+          {"text": "Buy $LEFT", "href": "#exchange"},
+          {"text": "Daily Missions", "href": "#missions"},
+          {"text": "VIP Tiers", "href": "#tiers"},
+          {"text": "How It Works", "href": "#how-it-works"}
+        ]
+      },
+      {
+        "title": "CASINO PARTNERS",
+        "links": [
+          {"text": "Shuffle.com", "href": "https://shuffle.com/?ref=leftgang", "external": true},
+          {"text": "Stake.com", "href": "https://stake.com/?ref=leftgang", "external": true},
+          {"text": "More Coming Soon", "href": "#", "external": false},
+          {"text": "Partnership Inquiries", "href": "#", "external": false}
+        ]
+      },
+      {
+        "title": "COMMUNITY",
+        "links": [
+          {"text": "Discord", "href": "https://discord.gg/lefttoken", "external": true},
+          {"text": "Telegram", "href": "https://t.me/lefttoken", "external": true},
+          {"text": "Twitter", "href": "https://twitter.com/lefttoken", "external": true},
+          {"text": "Reddit", "href": "https://reddit.com/r/lefttoken", "external": true}
+        ]
+      }
+    ],
+    "copyright": "© 2025 $LEFT Token. All rights reserved. | Unlock VIP casino rewards + mission bonuses with crypto."
+  },
+  "meta": {
+    "updateFrequency": "daily",
+    "lastUpdated": "2025-01-27",
+    "version": "1.0.0",
+    "author": "LEFT Token Team"
+  }
+}

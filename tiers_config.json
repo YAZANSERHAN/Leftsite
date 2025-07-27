@@ -1,0 +1,99 @@
+{
+  "tiers": {
+    "bronze": {
+      "name": "BRONZE TIER",
+      "requirement": 1000,
+      "requirementText": "1,000 $LEFT",
+      "badge": "🥉",
+      "color": "#cd7f32",
+      "benefits": [
+        "<strong>50% deposit bonus</strong> on every deposit",
+        "Weekly bonus codes",
+        "Basic VIP support",
+        "<strong>1.2x mission rewards</strong>",
+        "<strong>Cost: ~$115 USD</strong>"
+      ],
+      "depositBonus": 50,
+      "missionMultiplier": 1.2,
+      "cashbackBoost": 0
+    },
+    "silver": {
+      "name": "SILVER TIER",
+      "requirement": 10000,
+      "requirementText": "10,000 $LEFT",
+      "badge": "🥈",
+      "color": "#c0c0c0",
+      "benefits": [
+        "<strong>75% deposit bonus</strong> on every deposit",
+        "Daily bonus codes",
+        "Priority support",
+        "<strong>5% cashback boost</strong>",
+        "<strong>1.5x mission rewards</strong>",
+        "<strong>Cost: ~$1,150 USD</strong>"
+      ],
+      "depositBonus": 75,
+      "missionMultiplier": 1.5,
+      "cashbackBoost": 5
+    },
+    "gold": {
+      "name": "GOLD TIER",
+      "requirement": 50000,
+      "requirementText": "50,000 $LEFT",
+      "badge": "🥇",
+      "color": "#ffd700",
+      "benefits": [
+        "<strong>100% deposit bonus</strong> on every deposit",
+        "Exclusive tournaments",
+        "<strong>10% cashback boost</strong>",
+        "Personal VIP host",
+        "<strong>2x mission rewards</strong>",
+        "<strong>Cost: ~$5,750 USD</strong>"
+      ],
+      "depositBonus": 100,
+      "missionMultiplier": 2.0,
+      "cashbackBoost": 10
+    },
+    "diamond": {
+      "name": "DIAMOND TIER",
+      "requirement": 100000,
+      "requirementText": "100,000+ $LEFT",
+      "badge": "💎",
+      "color": "#b9f2ff",
+      "benefits": [
+        "<strong>150% deposit bonus</strong> on every deposit",
+        "Private gaming events",
+        "<strong>20% cashback boost</strong>",
+        "Personal account manager",
+        "<strong>3x mission rewards</strong>",
+        "<strong>Cost: ~$11,500+ USD</strong>"
+      ],
+      "depositBonus": 150,
+      "missionMultiplier": 3.0,
+      "cashbackBoost": 20
+    }
+  },
+  "roiExamples": [
+    {
+      "tier": "Bronze",
+      "investment": 115,
+      "leftAmount": 1000,
+      "description": "Bronze Tier ($115 investment):",
+      "details": [
+        "Every $1,000 deposit = $1,500 to play with (+$500 bonus)",
+        "+ Complete all missions = Extra 500 $LEFT (~$57)",
+        "Total break-even: Just $116 in deposits!"
+      ]
+    },
+    {
+      "tier": "Gold",
+      "investment": 5750,
+      "leftAmount": 50000,
+      "description": "Gold Tier ($5,750 investment):",
+      "details": [
+        "Every $1,000 deposit = $2,000 to play with (+$1,000 bonus)",
+        "+ Mission rewards = Extra 2,000 $LEFT (~$230)",
+        "Total break-even: Just $5,520 in deposits!"
+      ]
+    }
+  ]
+}

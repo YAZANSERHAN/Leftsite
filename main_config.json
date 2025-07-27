@@ -1,0 +1,86 @@
+{
+  "site": {
+    "title": "$LEFT Token - Unlock VIP Casino Rewards",
+    "description": "Hold $LEFT tokens to unlock exclusive VIP bonuses on major casino platforms. Higher holdings = bigger bonuses. Buy $LEFT instantly with any crypto.",
+    "baseUrl": "https://left.wtf",
+    "contractAddress": "0x1234...5678"
+  },
+  "pricing": {
+    "leftTokenPrice": 0.115,
+    "minimumPurchase": 10,
+    "currency": "USD"
+  },
+  "counters": {
+    "liveHolders": 3247,
+    "activeMissions": 1247,
+    "completedToday": 89,
+    "totalRewards": 47392,
+    "topHolder": "Diamond",
+    "holderGrowthRate": 10,
+    "missionGrowthRate": 50,
+    "dailyCompletionsRange": 20,
+    "rewardsGrowthRate": 100
+  },
+  "countdown": {
+    "durationHours": 24,
+    "message": "⏰ Limited time: Lock in founder VIP rates before price increases!"
+  },
+  "proofBanner": {
+    "enabled": true,
+    "message": "🔥 <strong><span id=\"liveHolders\">{liveHolders}</span> holders already earning VIP casino bonuses</strong> 🔥"
+  },
+  "hero": {
+    "title": "$LEFT",
+    "subtitle": "UNLOCK VIP CASINO REWARDS",
+    "description": "<strong>HOLD $LEFT → GET EXCLUSIVE BONUSES ON MAJOR CASINO PLATFORMS</strong><br><br>The more $LEFT you hold, the bigger your casino bonuses. <span style=\"color: var(--neon-green);\">Bronze holders get 50% deposit bonus</span>, <span style=\"color: var(--accent-yellow);\">Gold holders get 100%</span>, and <span style=\"color: var(--neon-cyan);\">Diamond holders get 150% + VIP host</span>.<br><br><strong>WAGERING PAYS YOU BACK IN $LEFT REWARDS</strong>",
+    "primaryCTA": "🚀 BUY $LEFT & GET VIP ACCESS",
+    "secondaryCTA": "🎯 VIEW MISSIONS"
+  },
+  "limitedOffer": {
+    "enabled": true,
+    "title": "🔥 LIMITED TIME OFFER:",
+    "description": "First 100 buyers get <strong style=\"color: var(--neon-green);\">BONUS tier upgrade for 30 days!</strong> Bronze holders get Silver benefits, Silver get Gold, etc. <strong style=\"color: var(--neon-cyan);\">Plus 2x mission rewards for first week!</strong>",
+    "remainingSpots": 73
+  },
+  "exchange": {
+    "title": "BUY $LEFT INSTANTLY",
+    "subtitle": "NO KYC • NO DELAYS • VIP ACCESS + MISSIONS IN MINUTES",
+    "defaultAmount": 115,
+    "supportedCurrencies": [
+      {"value": "usdt", "label": "USDT (Tether)"},
+      {"value": "eth", "label": "ETH (Ethereum)"},
+      {"value": "btc", "label": "BTC (Bitcoin)"},
+      {"value": "sol", "label": "SOL (Solana)"},
+      {"value": "bnb", "label": "BNB (Binance Coin)"}
+    ],
+    "dexLinks": [
+      {"name": "Jupiter (Sol)", "url": "https://jup.ag/swap/USDC-LEFT"},
+      {"name": "Uniswap (ETH)", "url": "https://app.uniswap.org/#/swap?outputCurrency=LEFT"}
+    ],
+    "features": [
+      "🚀 Instant purchase with 500+ cryptocurrencies",
+      "🔒 No registration or KYC required",
+      "⚡ VIP access activated in under 5 minutes",
+      "🎯 Immediate mission eligibility",
+      "💰 Best exchange rates guaranteed",
+      "🎰 Instant casino bonus eligibility",
+      "🏆 Automatic tier assignment",
+      "📱 Mobile-optimized purchasing",
+      "🛡️ Secure & non-custodial",
+      "🔄 Anti-bot verification system"
+    ]
+  },
+  "socialLinks": {
+    "discord": "https://discord.gg/lefttoken",
+    "telegram": "https://t.me/lefttoken",
+    "twitter": "https://twitter.com/lefttoken",
+    "reddit": "https://reddit.com/r/lefttoken",
+    "youtube": "https://youtube.com/@lefttoken"
+  },
+  "casinos": [
+    {"name": "Shuffle.com", "url": "https://shuffle.com/?ref=leftgang"},
+    {"name": "Stake.com", "url": "https://stake.com/?ref=leftgang"},
+    {"name": "More Coming Soon", "url": "#"},
+    {"name": "Partnership Inquiries", "url": "#"}
+  ]
+}
