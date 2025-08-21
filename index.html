@@ -1,67 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>RabbitChain Casino — Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RabbitChain Casino</title>
   <style>
-    * { margin:0; padding:0; }
-    html, body {
-      height:100%;
-      width:100%;
-      background: url('rabbitchain_banner.png') no-repeat center center fixed;
-      background-size: cover;
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: Arial, sans-serif;
     }
-    .overlay {
-      height:100%;
-      width:100%;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      color:white;
-      text-shadow:0 2px 8px rgba(0,0,0,0.8);
-      background: rgba(0,0,0,0.3);
-    }
-    h1 { font-size: 4rem; }
-    p { font-size: 1.5rem; margin-top: 1rem; }
-    .buttons {
-      margin-top: 2rem;
+
+    .hero {
+      height: 100vh;
+      width: 100%;
+      background: url("banner.png") no-repeat center center;
+      background-size: cover;
       display: flex;
-      gap: 1rem;
+      justify-content: center;
+      align-items: center;
     }
-    .btn {
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
+
+    .buttons {
+      position: absolute;
+      bottom: 40px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .buttons a {
+      background: rgba(0,0,0,0.6);
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: gold;
       font-weight: bold;
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-      transition: transform 0.2s ease;
+      font-size: 18px;
+      transition: 0.3s;
     }
-    .btn:hover { transform: scale(1.05); }
-    .btn-x {
-      background: black;
-      color: white;
-    }
-    .btn-tg {
-      background: #0088cc;
-      color: white;
+
+    .buttons a:hover {
+      background: gold;
+      color: black;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <h1>RabbitChain Casino</h1>
-    <p>🐇 Coming Soon — Hop into the chain of luck</p>
+  <div class="hero">
     <div class="buttons">
-      <a href="https://x.com/YOURHANDLE" target="_blank">
-        <button class="btn btn-x">Follow on X</button>
-      </a>
-      <a href="https://t.me/YOURCHANNEL" target="_blank">
-        <button class="btn btn-tg">Join Telegram</button>
-      </a>
+      <a href="https://x.com/yourprofile" target="_blank">X</a>
+      <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
     </div>
   </div>
 </body>
